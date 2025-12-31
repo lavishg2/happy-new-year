@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For Someone Special 💖</title>
+
+    <style>
+        body {
+            background: linear-gradient(to right, #ffdde1, #ee9ca7);
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding-top: 80px;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #b30059;
+        }
+
+        p {
+            font-size: 18px;
+            color: #4d004d;
+        }
+
+        button {
+            padding: 12px 30px;
+            font-size: 18px;
+            background-color: #ff4d88;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #e6005c;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>💝 Hey beautiful 💝</h1>
+    <p id="text">Click the button… slowly 😊</p>
+
+    <button onclick="start()">Start 💕</button>
+
+    <script>
+        function start() {
+
+            let name = prompt("Write your beautiful name here 😊");
+            alert("Hi miss " + name + " 💖");
+            alert("I made this just for you… 😊");
+            alert("I know this is simple… but I really wanted to do this for you.")
+
+            let day = prompt(
+                "How was your day today?\nGood 😊\nNormal 🙂\nTired 😴"
+            );
+
+            if (day.toLowerCase() === "good") {
+                alert("That makes me really happy to hear 💕");
+            } 
+            else if (day.toLowerCase() === "normal") {
+                alert("Normal days are okay… I hope this will make you feel better 😊");
+            } 
+            else {
+                alert("Awwww😢…\n I hope this makes you feel a little relaxed 💖");
+            }
+
+            let choice = prompt(
+                "Choose one 😊\nCoffee ☕\nChocolate 🍫"
+            );
+
+            if (choice.toLowerCase().includes("coffee")) {
+                alert("Oooh wow... Coffee with you nice plan 💫");
+            } else {
+                alert("Chocolate with you. It would be vey sweet🍫");
+            }
+
+            let miss = prompt(
+                "Be honest 😊\nDo you miss me sometimes?\nYes 😊\nA little 🙂\nMaybe 😌"
+            );
+
+            if (miss.toLowerCase().includes("yes")) {
+                alert("That makes me smile… really 💕");
+            } 
+            else if (miss.toLowerCase().includes("little")) {
+                alert("A little is also nice 😊");
+            } 
+            else {
+                alert("That’s okay… I still like talking to you 😊");
+            }
+
+            let care = prompt(
+                "Do you know something?\nSomeone really cares about you.\nDo you know who?\nYes 😊\nNo 🙂"
+            );
+
+            if (care.toLowerCase().includes("yes")) {
+                alert("Oohh wow that's good, you know i care for you 💖");
+            } else {
+                alert("It’s me😊.... And i really miss you 💕");
+            }
+
+
+            let smile = prompt(
+                "One more thing 😊\nAre you smiling right now?\nYes 😊\nNot yet 🙂"
+            );
+
+            if (smile.toLowerCase().includes("yes")) {
+                alert("That’s enough for me 💖");
+            } 
+            else {
+                alert("It’s okay… smiles come slowly sometimes 😊");
+            }
+            alert("Since it’s New Year ✨");
+            alert("I want to wish you many things, not just one 😊");
+
+            alert("I wish you good health ❤️");
+            alert("I wish you peace on hard days 💫");
+            alert("I wish you success in everything you work for 🌸");
+            alert("I wish you confidence in yourself 😊");
+            alert("I wish you many real smiles this year 💖");
+            alert("And most of all… I wish you happiness ❤️");
+
+            alert("I’m really glad you exist 💕");
+
+            document.getElementById("text").innerHTML =
+                "💝 Happy New Year, " + name + " 💝<br>" +
+                "May this year be gentle and kind to you 😊";
+        }
+    </script>
+
+</body>
+</html>
